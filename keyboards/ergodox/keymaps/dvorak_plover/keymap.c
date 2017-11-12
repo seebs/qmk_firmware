@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *   |Lalt  |  Grv |      | Left | Right|                                       |  Up  | Down |   [  |   ]  | RAlt |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,---------------.
- *                                        | LCtrl| Alt  |       | LGui | RCtrl  |
+ *                                        | LCtrl| Alt  |       | RGui | RCtrl  |
  *                                 ,------|------|------|       |------+--------+------.
  *                                 |      |      | Home |       | PgUp |        |      |
  *                                 |Backsp|Delete|------|       |------| Enter  |Space |
@@ -47,7 +47,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                           KC_D,   KC_H,   KC_T,   KC_N,   KC_S,             KC_MINS,
              TG(QWRT),KC_B,   KC_M,   KC_W,   KC_V,   KC_Z,             KC_RSFT,
                                   KC_UP,  KC_DOWN,KC_LBRC,KC_RBRC,          KC_RALT,
-             KC_LGUI,        KC_RCTL,
+             KC_RGUI,        KC_RCTL,
              KC_PGUP,
              KC_PGDN,KC_ENT, KC_SPC
     ),
@@ -149,7 +149,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *   | Lalt |  Grv |  '"  | Left | Right|                                       |  Up  | Down |   [  |   ]  | RAlt |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,---------------.
- *                                        | LCtrl| LAlt |       | LGui | RCtrl  |
+ *                                        | LCtrl| LAlt |       | RGui | RCtrl  |
  *                                 ,------|------|------|       |------+--------+------.
  *                                 |      |      | Home |       | PgUp |        |      |
  *                                 |Backsp|Delete|------|       |------| Enter  |Space |
@@ -172,7 +172,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                           KC_H,   KC_J,   KC_K,   KC_L,   KC_SCLN,          KC_QUOT,
              TG(QWRT),    KC_N,   KC_M,   KC_COMM,KC_DOT, KC_SLSH,          KC_RSFT,
                                   KC_UP,  KC_DOWN,KC_LBRC,KC_RBRC,          KC_RALT,
-              KC_LGUI,        KC_RCTL,
+              KC_RGUI,        KC_RCTL,
               KC_PGUP,
               KC_PGDN,KC_ENT, KC_SPC
     ),
